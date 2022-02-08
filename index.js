@@ -13,6 +13,21 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
+app.get('/services', (req, res) => {
+    console.log(`Dey lookin' at services page now, yo...`)
+    res.render('services');
+})
+
+app.get('/about', (req, res) => {
+    console.log(`Now dey lookin' at what you're all about...`)
+    res.render('about');
+})
+
+app.get('/contact', (req, res) => {
+    console.log(`Looks like dey might want to be gettin' in contact, yo...`)
+    res.render('contact')
+})
+
 app.listen(port, () => {
-    console.log(`listening on port ${port}...`)
+    console.log(`Ingenious app listening on port ${port}...`)
 })
