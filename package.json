@@ -1,0 +1,31 @@
+{
+  "name": "ingenious-site",
+  "version": "1.0.0",
+  "description": "website for management company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdevdavis/ingenious-site.git"
+  },
+  "keywords": [
+    "publishing",
+    "edit",
+    "proofread",
+    "book",
+    "design",
+    "print",
+    "on-demand"
+  ],
+  "author": "alex davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexdevdavis/ingenious-site/issues"
+  },
+  "homepage": "https://github.com/alexdevdavis/ingenious-site#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
