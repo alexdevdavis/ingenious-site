@@ -32,6 +32,12 @@ app.get('/contact', (req, res) => {
     res.render('contact')
 })
 
+app.post('/contact', (req, res) => {
+    console.log(`POST request at /contact, yo...`);
+    res.send('POST /contact response');
+
+})
+
 app.listen(port, () => {
     console.log(`Ingenious app listening on port ${port}...`)
 })
